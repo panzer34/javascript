@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this en Javascript</title>
+</head>
+<body>
+    <h1>this en Javascript</h1>
+
+
+    <script>
+
+//------------------------------------------------------------------------------------------------------------------------------------
+
+
+//------------------------------------------------ Curso 57 de Javascript - this--------------------------------------------------------
+
+
+
+        /* console.log(this);
+        console.log(window);
+        console.log(this === window)
+
+        this.nombre = "Contexto Global";
+        console.log(this.nombre);
+
+        function imprimir() {
+            console.log(this.nombre);
+        }
+
+        imprimir();
+
+        const obj = {
+            nombre: "Contexto Objeto",
+            imprimir: function () {
+                console.log(this.nombre);
+            }
+        }
+
+        obj.imprimir();
+
+
+        const obj2 = {
+            nombre: "Contexto Objeto 2",
+            imprimir
+        }
+
+        obj2.imprimir();
+
+
+        const obj3 = {
+            nombre: "Contexto Objeto 3",
+            imprimir:() => {
+                console.log(this.nombre);
+            }
+        }
+
+        obj3.imprimir();
+
+
+        function Persona (nombre) {
+            const that = this;
+            that.nombre = nombre;
+
+            // return console.log(this.nombre);
+
+           //   return function() {
+             //    console.log(this.nombre);
+            // } 
+
+            //   return () => console.log(this.nombre);
+
+            return function () {
+                console.log(that.nombre);
+            }
+
+            }
+
+        let jon = new Persona("Jon");
+        jon();
+ */
+
+
+
+
+
+ //-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+ //--------------------------------------------- Curso 58 de Javascript - Call, Apply, bind --------------------------------------------
+
+
+
+       /*  console.log(this);
+        this.lugar = "Contexto Global";
+
+        function saludar(saludo, aQuien) {
+            console.log(`${saludo} ${aQuien} desde el ${this.lugar}`);
+        }
+
+        saludar();
+
+        const obj = {
+            lugar : "Contexto Objeto"
+        }
+
+        saludar.call(obj, "Hola", "Jon");
+        saludar.call(null, "Hola", "Jon");
+        saludar.call(this, "Hola", "Jon");
+        saludar.apply(obj, ["Adios", "Mirc"]);
+        saludar.apply(null, ["Adios", "Mirc"]);
+        saludar.apply(this, ["Adios", "Mirc"]);
+
+
+        this.nombre= "window";
+
+        const persona = {
+            nombre: "jon",
+            saludar: function () {
+                console.log(`Hola ${this.nombre}`)
+            }
+        }
+
+        persona.saludar();
+
+
+        const otraPersona = {
+            saludar: persona.saludar.bind(this)
+        }
+
+        otraPersona.saludar();
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
