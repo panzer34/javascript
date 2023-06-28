@@ -74,5 +74,12 @@ img {
   height: 4rem;
 }
 
+.post-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  background-color: #eceff1;
+}
+
 
 
